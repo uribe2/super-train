@@ -1,7 +1,9 @@
+package gen;
+
 import java.io.*;
 
 // Clase para generar las referencias de memoria
-class GeneradorReferencias {
+public class GeneradorReferencias {
     private ConfiguracionSistema config;
 
     public GeneradorReferencias(ConfiguracionSistema config) {

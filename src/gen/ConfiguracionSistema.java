@@ -1,7 +1,9 @@
+package gen;
+
 import java.io.*;
 
 // Clase para manejar la configuracion del sistema
-class ConfiguracionSistema {
+public class ConfiguracionSistema {
     private int tamanoPagina;
     private int numeroProcesos;
     private String[] tamanosMatrices;

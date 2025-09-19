@@ -1,7 +1,9 @@
+package sim;
+
 import java.util.*;
 
 // Clase principal para la simulacion de memoria
-class SimuladorMemoria {
+public class SimuladorMemoria {
     private int totalMarcos;
     private int numeroProcesos;
     private List<Proceso> procesos;

@@ -1,8 +1,10 @@
+package sim;
+
 import java.io.*;
 import java.util.*;
 
 // Clase para representar un proceso
-class Proceso {
+public class Proceso {
     private int id;
     private List<ReferenciaMemoria> referencias;
     private Map<Integer, Integer> tablaPaginas; // pagina virtual -> marco fisico

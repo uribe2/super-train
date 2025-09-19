@@ -1,5 +1,7 @@
+package sim;
+
 // Clase para representar una referencia de memoria
-class ReferenciaMemoria {
+public class ReferenciaMemoria {
     private int paginaVirtual;
     private int desplazamiento;
     private char operacion; // 'r' para read, 'w' para write

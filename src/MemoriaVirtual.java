@@ -1,3 +1,6 @@
+import gen.*;
+import sim.*;
+
 // Clase principal del simulador
 public class MemoriaVirtual {
     public static void main(String[] args) {
